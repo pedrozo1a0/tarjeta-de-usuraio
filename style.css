@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 250px;
+    width: 450px;
+    margin: 50px 100px;
+    border: 0.5px solid rgb(224, 223, 223);
+}
+.nav-top{
+    height:50px ;
+    background-color: rgb(48, 188, 223);
+}
+.user{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 75px;
+    left: 120px;
+}
+.content{
+    padding: 25px 10px;
+}
+.map{
+    height: 15px;
+    width: 15px;
+    position:absolute;
+    top: 160px;
+    
+}
+h4{
+    padding: 5px 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.gear{
+    height: 3% ;
+    width:3% ;
+    padding-top: 10px;
+    /* display: inline; */
+}
+h5{
+    display: inline-block;
+    text-decoration: underline;
+}
